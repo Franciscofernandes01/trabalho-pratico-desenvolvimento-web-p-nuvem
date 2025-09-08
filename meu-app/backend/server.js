@@ -17,7 +17,7 @@ const __dirname = path.dirname(__filename);
 app.use(express.static(path.join(__dirname, "../frontend")));
 
 // 🔗 Conectar ao MongoDB Atlas
-const MONGO_URI = "mongodb+srv://franciscofernandes10_db_user:ObBP4uqp2nYR8nEn@cluster0.acqlt5x.mongodb.net/meuapp";
+const MONGO_URI = "mongodb+srv://franciscofernandes10_db_user:ObBP4uqp2nYR8nEn@cluster0.acqlt5x.mongodb.net/";
 
 mongoose.connect(MONGO_URI, {
   useNewUrlParser: true,
