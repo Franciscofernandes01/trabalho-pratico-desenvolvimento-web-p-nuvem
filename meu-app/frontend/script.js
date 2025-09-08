@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3000/tarefas";
+const API_URL = "/api/tarefas";
 
 const form = document.getElementById("form");
 const tituloInput = document.getElementById("titulo");
